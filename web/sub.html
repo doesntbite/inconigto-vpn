@@ -849,10 +849,9 @@ select.form-control {
     // Constants
     const DEFAULT_PROXY_BANK_URL = 'https://raw.githubusercontent.com/InconigtoMode/proxylist/refs/heads/main/ProxyList.txt';
     const PROXY_CHECK_API_URL = 'https://apicek.t-me-inconigto.workers.dev/proxy';
-    const PATH_PREFIX = 'Inconigto-Mode'; // Hardcoded path prefix
+    const PATH_PREFIX = 'free'; // Hardcoded path prefix
     const MainDomains = [
-        'inconigto-mode.web.id',
-        'inconigto.web.id',
+        'nolimit.dpdns.org',
         'inconigto.biz.id'
     ];
 
@@ -1293,7 +1292,7 @@ select.form-control {
             }
             
             // Return a single Clash configuration with all proxies
-            return `#Inconigto-Mode\nproxies:\n${allProxies.join('\n')}`;
+            return `#free\nproxies:\n${allProxies.join('\n')}`;
         } else {
             // V2Ray format - process each proxy individually
             for (const line of limitedProxies) {

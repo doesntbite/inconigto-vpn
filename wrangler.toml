@@ -6,13 +6,13 @@ workers_dev = true
 
 
 routes = [
-  { pattern = "nolimit.dpdns.org", custom_domain = true },
-  { pattern = "ava.game.naver.com.nolimit.dpdns.org", custom_domain = true },
-  { pattern = "df.game.naver.com.nolimit.dpdns.org", custom_domain = true },
-  { pattern = "graph.instagram.com.nolimit.dpdns.org", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.nolimit.dpdns.org", custom_domain = true },
-  { pattern = "support.zoom.us.nolimit.dpdns.org", custom_domain = true },
-  { pattern = "cache.netflix.com.nolimit.dpdns.org", custom_domain = true },
+  { pattern = "datacore.dpdns.org", custom_domain = true },
+  { pattern = "ava.game.naver.com.datacore.dpdns.org", custom_domain = true },
+  { pattern = "df.game.naver.com.datacore.dpdns.org", custom_domain = true },
+  { pattern = "graph.instagram.com.datacore.dpdns.org", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.datacore.dpdns.org", custom_domain = true },
+  { pattern = "support.zoom.us.datacore.dpdns.org", custom_domain = true },
+  { pattern = "cache.netflix.com.datacore.dpdns.org", custom_domain = true },
 
 ]
 

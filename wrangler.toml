@@ -13,6 +13,7 @@ routes = [
   { pattern = "zaintest.vuclip.com.datacore.dpdns.org", custom_domain = true },
   { pattern = "support.zoom.us.datacore.dpdns.org", custom_domain = true },
   { pattern = "cache.netflix.com.datacore.dpdns.org", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.datacore.dpdns.org", custom_domain = true },
 
 ]
 
